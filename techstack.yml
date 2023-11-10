@@ -1,0 +1,97 @@
+repo_name: skerbis/collect
+report_id: 0ff6e0a823b1a0a552f5e2e0ca088057
+repo_type: Public
+timestamp: '2023-11-10T19:33:34+00:00'
+requested_by: skerbis
+provider: github
+branch: main
+detected_tools_count: 8
+tools:
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source: plugins/rss/vendor/simplepie/simplepie/db.sql
+  last_updated_by: Alexander Walther
+  last_updated_on: 2022-03-31 16:04:41.000000000 Z
+- name: Guzzle
+  description: PHP HTTP client that makes it easy to send HTTP requests and trivial
+    to integrate with web services
+  website_url: http://guzzlephp.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/2350/638632.png
+  detection_source: plugins/rss/vendor/nicolus/picoFeed/composer.json
+  last_updated_by: Alexander Walther
+  last_updated_on: 2022-03-31 16:04:41.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/publish-to-redaxo-org.yml"
+  last_updated_by: Alexander Walther
+  last_updated_on: 2022-03-30 16:58:32.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 5.7.27
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: plugins/video/vendor/madcoda/php-youtube-api/composer.lock
+  detection_source: plugins/vimeo/vendor/vimeo/vimeo-api/composer.json
+  last_updated_by: Alexander Walther
+  last_updated_on: 2022-03-31 16:04:41.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: plugins/vimeo/vendor/vimeo/vimeo-api/.travis.yml
+  last_updated_by: Alexander Walther
+  last_updated_on: 2022-03-31 16:04:41.000000000 Z
+- name: Monolog
+  website_url: https://github.com/Seldaek/monolog
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9170/183678.jpeg
+  detection_source: plugins/rss/vendor/nicolus/picoFeed/composer.json
+  last_updated_by: Alexander Walther
+  last_updated_on: 2022-03-31 16:04:41.000000000 Z
